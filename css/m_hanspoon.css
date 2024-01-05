@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+header {box-shadow: none;}
+header .inner {padding: 0 3%; box-sizing: border-box;}
+header .logo {
+    position: static; /* position을 초기화 */
+    transform: none; /* transform 초기화 */
+}
+header .logo > a {
+    display: block;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+}
+header .btn_search {right: 3%; font-size: 30px;}
+header .btn_menu {
+    display: block;
+    position: absolute;
+    top: 50%; left: 3%;
+    transform: translateY(-50%);
+    font-size: 34px;
+    color: rgba(255, 68, 0, 0.712);
+}
+.gnb_area {display: none;}
+.main_bg .main_title strong {
+    font-size: 23px;
+    font-weight: 600;
+}
+.main_bg .main_title span {
+    font-size: 22px;
+}
+
+/* section */
+section h2 {
+    font-size: 30px;
+}
+section .text {
+    padding: 15px;
+    font-size: 16px;
+}
+#best_menu .best_list > li {
+    width: 95%;
+    margin: 2.5%;
+}
+.best_list > li .btn_view {
+    padding: 10px 25px;
+}
+#event .event_title {
+    font-size: 18px;
+}
+#event .event_text {
+    font-size: 20px;
+}
+
+/* best_review */
+#best_review .review_list {
+    display: block;
+}
+#best_review .review_list > li {
+    width: 100%;
+}
+.review_list > li figure {
+    margin-left: 0;
+}
+.review_list > li .text_area{position: relative;}
+.review_list > li .text_area .text {
+    position: absolute;
+    top: -120px; left: 170px;
+    font-size: 14px;
+}
+.review_list > li .text_area .author {
+    position: absolute;
+    top: -140px; left: 170px;
+}
+.review_list > li .text_area .menu_name {
+    position: absolute;
+    top: -180px; left: 180px;
+}
